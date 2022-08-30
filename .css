@@ -1,0 +1,44 @@
+
+:root{
+    --fundo: rgb(255, 218, 9);
+}
+
+*{
+
+    margin: 0%; padding: 0%;
+    background-color: var(--fundo); color: var(--branco);
+}
+header{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+header img{
+    height: 100%;
+}
+header ul{
+    
+    list-style: none;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+header ul li{
+    display:flex;
+    margin: 20px;
+    width: 150px;
+    height: 30px;
+    background-color:black ;
+    background-image: linear-gradient(rgb(255, 255, 255) ,rgb(90, 90, 90));
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.baner{
+    
+}
